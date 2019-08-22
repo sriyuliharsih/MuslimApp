@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="vertical_margin">5dp</dimen>
+    <dimen name="Padding">3dp</dimen>
+    <dimen name="padding_layout">3dp</dimen>
+    <dimen name="margin_vertical">3dp</dimen>
+    <dimen name="left_label_widht">3dp</dimen>
+</resources>

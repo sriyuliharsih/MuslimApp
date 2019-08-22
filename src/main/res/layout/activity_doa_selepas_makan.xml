@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3DAB3"
+    tools:context=".DoaSelepasMakan">
+
+    <ImageView
+        android:id="@+id/lampu1"
+        android:layout_width="180dp"
+        android:layout_height="83dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="231dp"
+        android:src="@drawable/lampu1" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lampu1"
+        android:gravity="center"
+        android:text="Doa Selepas Makan"
+        android:textColor="#7A2106"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/btn_doa_selpas_mkn"
+        android:layout_width="393dp"
+        android:layout_height="379dp"
+        android:layout_below="@id/lampu1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="121dp"
+        android:layout_marginEnd="11dp"
+        android:src="@drawable/doaselpasmkn" />
+
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="45dp"
+        android:layout_below="@id/btn_doa_selpas_mkn"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="false"
+        android:layout_marginStart="-2dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginBottom="305dp"
+        android:gravity="center"
+        android:text="sri.yuliharsih@gmail.com"
+        android:textColor="#7A2106"
+        android:textSize="15sp" />
+
+</RelativeLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="koding.web.muslimapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/masjid"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/masjid"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".DoaSelepasMakan"></activity>
+        <activity android:name=".DoaMauMakan" />
+        <activity android:name=".DoaBangunTidur" />
+        <activity android:name=".DoaSebelumTidur" />
+        <activity android:name=".DoaNabiYusuf" />
+        <activity android:name=".DoaTawadhu" />
+        <activity android:name=".DoaMenenangkanHati" />
+        <activity android:name=".MainDoa" />
+        <activity android:name=".MainHalal" />
+        <activity android:name=".MainSholat" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

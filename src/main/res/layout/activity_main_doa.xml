@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3DAB3"
+    tools:context=".MainDoa">
+
+    <ImageView
+        android:id="@+id/quran"
+        android:layout_width="wrap_content"
+        android:layout_height="123dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/quran" />
+
+    <Button
+        android:id="@+id/btn_doa_menenangkan_hati"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/quran"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:text="Doa Menenangkan Hati"
+        android:textColor="#7A2106"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_doa_tawadhu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_doa_menenangkan_hati"
+        android:layout_alignParentStart="true"
+        android:textColor="#7A2106"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="0dp"
+        android:text="Doa Menjadi Hamba Yang Tawadhu"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_doa_keturunan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_doa_tawadhu"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="#7A2106"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="0dp"
+        android:text="Doa Nabi Yusuf"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_doa_tidur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_doa_keturunan"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="#7A2106"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="0dp"
+        android:text="Doa Sebelum Tidur"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_doa_bangun_tidur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_doa_tidur"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="#7A2106"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="0dp"
+        android:text="Doa Bangun Tidur"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_doa_makan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_doa_bangun_tidur"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="#7A2106"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="0dp"
+        android:text="Doa Mau Makan"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_doa_selepas_makan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_doa_makan"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="false"
+        android:textColor="#7A2106"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="0dp"
+        android:text="Doa selepas Makan"
+        android:textStyle="bold" />
+
+
+
+
+</RelativeLayout>
